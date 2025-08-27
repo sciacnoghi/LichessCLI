@@ -1,0 +1,13 @@
+{
+    "TOKEN":"YOUR_TOKEN",
+    "BASE_URL":"https://lichess.org/",
+    "COMMAND_PREFIX":"!",
+    "SUPPORTED_COMMANDS":
+        {
+            "help":"Description: Shows the supported commands help strings \nUsage: [COMMAND_PREFIX]help\n",
+            "quit":"Description: Quits gracefully the CLI \nUsage: [COMMAND_PREFIX]quit\n",
+            "user":"Description: Prints the user info of the specified user \nUsage: [COMMAND_PREFIX]user lichess_username\n",
+            "message":"Description: Sends a private message to the specified user \nUsage: [COMMAND_PREFIX]message username\n",
+            "whoami":"Description: prints the current user \nUsage: [COMMAND_PREFIX]whoami\n"
+        }
+}
